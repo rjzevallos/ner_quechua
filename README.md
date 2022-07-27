@@ -25,6 +25,8 @@ required arguments:
                         Dataset de entrenamiento en formato csv.
   -e root_eval, --evaluation root_eval
                         Dataset de evaluación en formato csv.
+  -o root_output, --output root_output
+                        Archivo csv procesado.
 
 optional arguments:
   -h, --help            show help message and exit
@@ -52,5 +54,5 @@ python ner_quechua/src/main.py -u ner_quechua/resources/data.csv -o ner_quechua/
 ## Entrenar nuevo modelo NER
 
 ```
-python src/main.py -t ruta/train_qu_ner.csv -e ruta/test_que_ner.csv
+python src/main.py -t ner_quechua/resources/train_qu_ner.csv -e ner_quechua/resources/test_que_ner.csv
 ```
