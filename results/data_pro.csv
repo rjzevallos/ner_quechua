@@ -1,0 +1,3 @@
+text	ner
+Lima y Roberto allinlla	[[{'Lima': 'I-PER'}, {'y': 'I-PER'}, {'Roberto': 'B-PER'}, {'allinlla': 'I-PER'}]]
+Panichay Ayacucho ari	[[{'Panichay': 'O'}, {'Ayacucho': 'B-LOC'}, {'ari': 'I-LOC'}]]
