@@ -36,7 +36,7 @@ def main():
         data = pd.read_csv(root_usage, sep="\t")
         data_pro = util.use_csv(data)
         print("Guardando csv procesado")
-        data_pro.to_csv("../results/data_pro.csv", index = False, sep ="\t")
+        data_pro.to_csv("results/data_pro.csv", index = False, sep ="\t")
         print("Proceso terminado")
 
 
