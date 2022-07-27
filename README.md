@@ -46,7 +46,7 @@ python src/main.py -i
 
 
 ```
-python src/main.py -u ruta/test.csv
+python ner_quechua/src/main.py -u ner_quechua/resources/data.csv -o ner_quechua/results/
 ```
 
 ## Entrenar nuevo modelo NER
