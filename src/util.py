@@ -54,7 +54,7 @@ def train(root_train,root_test):
     args.save_steps = -1
     model = NERModel('roberta', "Llamacha/QuBERTa" ,labels=label, args =args,use_cuda=True)
     model.train_model(train_data,eval_data = test_data, acc=get_accuracy_and_confusion)
-    result, model_outputs, preds_list = model.eval_model(test_data, acc=get_accuracy_and_confusion, output_dir = "../resources")
+    result, model_outputs, preds_list = model.eval_model(test_data, acc=get_accuracy_and_confusion, output_dir = "/resources")
     print(result)
     print("Guardando model NER")
     print("Modelo NER guardado")
